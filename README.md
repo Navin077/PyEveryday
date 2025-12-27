@@ -1,9 +1,10 @@
+<!-- Performance UI fix test -->
+
 [![OSCI-Project-Banner.png](https://i.postimg.cc/76mJvBmF/OSCI-Project-Banner.png)](https://postimg.cc/8JfzMb84)
+
 <div align="center">  
   <img src="https://readme-typing-svg.herokuapp.com?color=00ffaa&size=35&width=900&height=80&lines=⚙️+PyEveryday+-+Automate+Your+Everyday+Tasks+with+Python!"/>
 
-
-  
   <h1>🚀 PyEveryday</h1>
   
   <p><strong>Automate Your Everyday Tasks with Modern Web Technology</strong></p>
@@ -26,12 +27,14 @@
 **PyEveryday** is an open-source platform that transforms everyday Python automation scripts into accessible web applications. No more command-line interfaces or local installations – just visit our web app and automate your tasks instantly!
 
 ### 🎯 Mission
+
 To make powerful automation tools accessible to everyone through intuitive web interfaces, bridging the gap between complex Python scripts and user-friendly applications.
 
 ### ✨ Key Highlights
+
 - **🌐 Web-First Approach**: All scripts accessible through modern web interface
 - **🚀 No Installation Required**: Use directly from your browser
-- **📱 Mobile Friendly**: Responsive design for all devices  
+- **📱 Mobile Friendly**: Responsive design for all devices
 - **🔧 API-Driven**: FastAPI backend with comprehensive REST API
 - **⚡ Real-time Results**: Instant feedback and processing
 - **🔒 Secure**: Privacy-focused with no data storage
@@ -41,12 +44,14 @@ To make powerful automation tools accessible to everyone through intuitive web i
 ## 🚀 Features
 
 ### 🔧 Utility Tools
+
 - **💱 Currency Converter** - Real-time exchange rates with 150+ currencies
 - **📏 Unit Converter** - Length, weight, temperature, and more
-- **🎂 Age Calculator** - Precise age calculation with detailed breakdowns  
+- **🎂 Age Calculator** - Precise age calculation with detailed breakdowns
 - **🔐 Password Generator** - Secure passwords with customizable criteria
 
 ### 📈 Productivity Suite
+
 - **✅ Todo Manager** - Smart task management with priorities
 - **🍅 Pomodoro Timer** - Focus sessions with break reminders
 - **💡 Quote Fetcher** - Daily motivation and inspiration
@@ -54,6 +59,7 @@ To make powerful automation tools accessible to everyone through intuitive web i
 - **📊 Time Tracker** - Monitor time spent on activities
 
 ### 🤖 Automation Tools
+
 - **📁 File Organizer** - Smart file sorting and management
 - **📧 Email Automation** - Scheduled email sending
 - **🔄 Backup Scheduler** - Automated backup solutions
@@ -61,6 +67,7 @@ To make powerful automation tools accessible to everyone through intuitive web i
 - **📝 File Renamer** - Batch renaming with patterns
 
 ### 🌐 Data & Web Tools
+
 - **🌤️ Weather Checker** - Current weather and forecasts
 - **📰 News Fetcher** - Latest headlines from multiple sources
 - **📹 YouTube Downloader** - Video/audio download utility
@@ -68,11 +75,13 @@ To make powerful automation tools accessible to everyone through intuitive web i
 - **📊 Data Processor** - CSV, JSON, XML manipulation
 - **📈 Data Visualizer** - Interactive charts and graphs
 
-### 🎨 Media Processing  
+### 🎨 Media Processing
+
 - **�️ Image Processor** - Resize, convert, and optimize images
 - **🎵 Audio Processor** - Audio format conversion and editing
 
 ### 🔒 Security Tools
+
 - **🛡️ Password Checker** - Password strength analysis
 - **🔐 Security Utilities** - Data protection and encryption
 
@@ -86,7 +95,7 @@ PyEveryday uses a modern full-stack architecture:
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   Next.js UI   │◄──►│  FastAPI Backend │◄──►│ Python Scripts │
 │                 │    │                 │    │                 │
-│ • React 18      │    │ • REST API      │    │ • Core Logic    │  
+│ • React 18      │    │ • REST API      │    │ • Core Logic    │
 │ • TypeScript    │    │ • Authentication│    │ • Automation    │
 │ • Tailwind CSS │    │ • Validation    │    │ • Processing    │
 │ • Responsive    │    │ • Error Handling│    │ • Utilities     │
@@ -96,18 +105,21 @@ PyEveryday uses a modern full-stack architecture:
 ### Tech Stack
 
 **Frontend (Next.js)**
+
 - React 18 with TypeScript
-- Tailwind CSS for styling  
+- Tailwind CSS for styling
 - Responsive design
 - Progressive Web App (PWA)
 
 **Backend (FastAPI)**
+
 - Python 3.8+ with FastAPI
 - Automatic API documentation
 - Input validation with Pydantic
 - CORS middleware for web integration
 
 **Scripts & Utilities**
+
 - Pure Python with minimal dependencies
 - Modular and reusable functions
 - Comprehensive error handling
@@ -119,18 +131,20 @@ PyEveryday uses a modern full-stack architecture:
 
 ### 🌐 Use Online (Recommended)
 
-Visit our live application at: **[pyeveryday.app](https://pyeveryday.app)** *(Coming Soon)*
+Visit our live application at: **[pyeveryday.app](https://pyeveryday.app)** _(Coming Soon)_
 
 No installation required! Access all tools directly from your browser.
 
 ### 💻 Local Development
 
 #### Prerequisites
+
 - Python 3.8 or higher
-- Node.js 16 or higher  
+- Node.js 16 or higher
 - npm or yarn
 
 #### Backend Setup
+
 ```bash
 # Clone the repository
 git clone https://github.com/Vaibhav2154/PyEveryday.git
@@ -147,6 +161,7 @@ uvicorn app:app --reload --host 0.0.0.0 --port 8000
 ```
 
 #### Frontend Setup
+
 ```bash
 # In a new terminal, set up Next.js
 cd ui
@@ -161,6 +176,7 @@ Access the application at `http://localhost:3000`
 ### 📚 API Documentation
 
 Once the backend is running, visit:
+
 - **Interactive API Docs**: `http://localhost:8000/docs`
 - **ReDoc Documentation**: `http://localhost:8000/redoc`
 
@@ -169,7 +185,7 @@ Once the backend is running, visit:
 ## � Documentation
 
 - **[📋 API Reference](./docs/API.md)** - Complete API documentation
-- **[🛠️ Development Guide](./docs/DEVELOPMENT.md)** - Setup and development workflow  
+- **[🛠️ Development Guide](./docs/DEVELOPMENT.md)** - Setup and development workflow
 - **[🏗️ Architecture Guide](./docs/ARCHITECTURE.md)** - System design and structure
 - **[🔌 Integration Guide](./docs/INTEGRATION.md)** - Third-party integrations
 - **[🚀 Deployment Guide](./docs/DEPLOYMENT.md)** - Production deployment
@@ -243,15 +259,15 @@ PyEveryday/
 
 ### 🌟 Featured Tools
 
-| Tool | Description | Frontend | API |
-|------|-------------|----------|-----|
-| Currency Converter | Real-time exchange rates | ✅ | ✅ |
-| Password Generator | Secure password creation | ✅ | ✅ |
-| Todo Manager | Task management system | ✅ | ✅ |
-| Weather Checker | Live weather data | ✅ | ✅ |
-| File Organizer | Smart file management | 🚧 | ✅ |
+| Tool               | Description              | Frontend | API |
+| ------------------ | ------------------------ | -------- | --- |
+| Currency Converter | Real-time exchange rates | ✅       | ✅  |
+| Password Generator | Secure password creation | ✅       | ✅  |
+| Todo Manager       | Task management system   | ✅       | ✅  |
+| Weather Checker    | Live weather data        | ✅       | ✅  |
+| File Organizer     | Smart file management    | 🚧       | ✅  |
 
-*✅ = Available, 🚧 = In Development*
+_✅ = Available, 🚧 = In Development_
 
 ---
 
@@ -260,13 +276,13 @@ PyEveryday/
 Join our growing community of developers and automation enthusiasts!
 
 - **💬 [Discord](https://discord.gg/pyeveryday)** - Real-time chat and support
-- **🐛 [Issues](https://github.com/Vaibhav2154/PyEveryday/issues)** - Bug reports and feature requests  
+- **🐛 [Issues](https://github.com/Vaibhav2154/PyEveryday/issues)** - Bug reports and feature requests
 - **📋 [Discussions](https://github.com/Vaibhav2154/PyEveryday/discussions)** - Ideas and general discussions
 - **📧 [Email](mailto:support@pyeveryday.app)** - Direct contact for important matters
 
 ### 🎉 Contributors
 
-Thanks to all our amazing contributors! 
+Thanks to all our amazing contributors!
 
 <a href="https://github.com/Vaibhav2154/PyEveryday/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Vaibhav2154/PyEveryday" />
@@ -286,12 +302,14 @@ Thanks to all our amazing contributors!
 ## 🗺️ Roadmap
 
 ### 🎯 Current Focus (Q4 2024)
+
 - [ ] Complete web interface for all existing scripts
 - [ ] User authentication and personalization
 - [ ] API rate limiting and security enhancements
 - [ ] Mobile app (React Native)
 
 ### 🚀 Upcoming Features (2025)
+
 - [ ] AI-powered automation suggestions
 - [ ] Plugin system for third-party integrations
 - [ ] Advanced data analytics dashboard
@@ -318,8 +336,9 @@ For security concerns, please email: [security@pyeveryday.app](mailto:security@p
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ### 📋 What this means:
+
 - ✅ Commercial use allowed
-- ✅ Modification allowed  
+- ✅ Modification allowed
 - ✅ Distribution allowed
 - ✅ Private use allowed
 - ❌ No warranty provided
@@ -330,7 +349,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ## � Acknowledgments
 
 - **FastAPI** team for the amazing web framework
-- **Next.js** team for the powerful React framework  
+- **Next.js** team for the powerful React framework
 - **Vercel** for seamless deployment solutions
 - **All contributors** who make this project possible
 - **Open source community** for inspiration and support
